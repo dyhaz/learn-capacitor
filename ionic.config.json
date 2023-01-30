@@ -1,0 +1,10 @@
+{
+  "defaultProject": "learn-capacitor",
+  "projects": {
+    "learn-capacitor": {
+      "name": "learn-capacitor",
+      "integrations": {},
+      "type": "angular"
+    }
+  }
+}
