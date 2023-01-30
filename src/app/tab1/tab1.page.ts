@@ -1,12 +1,21 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
+import { CapacitorGallery } from 'galeri';
 
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
-export class Tab1Page {
+export class Tab1Page implements AfterViewInit {
+  private gallery = CapacitorGallery;
 
-  constructor() {}
+  constructor(
+  ) {}
+
+  ngAfterViewInit() {
+    this.gallery.echo({
+      value: 'Hello World!'
+    });
+  }
 
 }
