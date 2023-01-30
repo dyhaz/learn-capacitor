@@ -3,7 +3,9 @@
   "projects": {
     "learn-capacitor": {
       "name": "learn-capacitor",
-      "integrations": {},
+      "integrations": {
+        "capacitor": {}
+      },
       "type": "angular"
     }
   }
